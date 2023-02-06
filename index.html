@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en" id="index">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Green Planet</title>
+
+
+  <script src="https://kit.fontawesome.com/338df7f5d1.js" crossorigin="anonymous"></script>
+
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section id="title">
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="navbar-brand">
+        <img src="images/eco.jpg" alt="Bootstrap" width="" height="">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#bestseller">Our Top products</a></li>
+              <li><a class="dropdown-item" href="#vitamin">Vitamin-c-products </a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#teatree">Tea-tree Products</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="plantgodness.html">Plant Godness</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#footer">Contact-us</a>
+          </li>
+
+        </ul>
+      </div>
+      <button class="btn btn-md btn-success me-4 download-butn" onclick=""> <i class="fa-sharp fa-solid fa-user"></i>
+        Log-in </button>
+      <!-- <button class="btn btn-md btn-success me-4 download-butn" href="cart.html" onclick="cart.html"> <i class="fa-solid fa-cart-shopping"></i> cart </button> -->
+      <a class="download-butn" href="cart.html"> <i class="fa-solid fa-cart-shopping"></i> cart</a>
+    </nav>
+
+  </section>
+
+
+  <!--  hero section slide -->
+
+  <section id="Hero-img">
+
+    <div class="cont">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/1920X512.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Desktop__2_.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Website.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden btn-success">Previous</span>
+        </button>
+        <button class="carousel-control-next btn-success" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <button class="btn btn-primary download-butn">Shop Now</button>
+  </section>
+  <section id="specifications">
+    <h1 class="testmon-header"> Specification of Products
+    </h1>
+
+    <div class="specifications">
+      <div class="row">
+        <div class="col-4  specification-ros"><i class="icon fa-solid fa-circle-check fa-3x"></i>
+          <h3> Mum-baby Friendly </h3>
+        </div>
+        <div class="col-4  specification-ros"><i class="icon fa-solid fa-circle-check fa-3x"></i></i>
+          <h3>Toxin-Free</h3>
+        </div>
+        <div class="col-4 specification-ros"><i class="icon fa-solid fa-circle-check fa-3x"></i></i>
+          <h3>Chemiclas-free Life</h3>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- products showcase -->
+  <section id="products">
+    <h1 class="testmon-header"> Products</h1>
+    <div class="container">
+      <div class="row mb-5" id="bestseller">
+        <div class="heading col-lg-3 " style="text-align: center;">
+          <div class="card" style="width: 18rem; border: white;">
+            <div class="card-body">
+              <h5 class="card-title m-3">Best-Seller</h5>
+              <p class="card-text text">Explore best-selling safe, natural, and 100% toxin-free baby and beauty products
+                from Mamaearth. Get amazing deals and start your toxin-free skin, hair, and baby care journey.</p>
+              <Button class="btn-primary card-link">VIEW ALL</Button:s>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+
+
+          <div id="carouselExampleControls2" class=" row carousel slide" data-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!-- cards -->
+
+                <div class=" card card-prod" style="width: 18rem; ">
+                  <img class="card-img-top" src="bestellers/_onion-oil-250ml__1.avif" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text">Onion Hair oil for Hair Regrowth and Hairfall Controll 250ml</p>
+                    <p class="card-text text" style="color: #7ec729;;">Boost Hair Growth || Add Strength and Shine</p>
+                    <p class="m-1"><strong><i class="fa-solid fa-indian-rupee-sign"></i>453</strong></p>
+                    <a href="#" class="btn btn-primary card-link">Add-to-Cart</a>
+                  </div>
+                </div>
+                <div class=" card card-prod" style="width: 18rem; ">
+                  <img class="card-img-top" src="bestellers/bye_bye_blemishes_1_1.avif" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text">Bye Bye Blemishes Face Cream for Reducing Pigmentation</p>
+                    <p class="card-text text" style="color: #7ec729;;">Evens Skin Tone | Non-Greasy | Reduces Dark Spots
+                    </p>
+                    <p class="m-1"><strong><i class="fa-solid fa-indian-rupee-sign"></i>359</strong></p>
+                    <a href="#" class="btn btn-primary card-link">Add-to-Cart</a>
+                  </div>
+                </div>
+                <div class=" card card-prod" style="width: 18rem; ">
+                  <img class="card-img-top" src="bestellers/onion-hair-shampoo-250ml-with-ingredient_2.avif"
+                    alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text">Onion Shampoo with Onion and Hair Fall Control - 250ml</p>
+                    <p class="card-text text" style="color: #7ec729;;">Reduces Hair Fall <i
+                        class="fa-solid fa-badge-check"></i> | Strengthens Hair |Softens Hair</p>
+                    <p class="m-1"><strong><i class="fa-solid fa-indian-rupee-sign"></i>1050</strong></p>
+                    <a href="#" class="btn btn-primary card-link"><i class="fa-solid fa-badge-check"></i>Add-to-Cart</a>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div> -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+      <hr>
+      <div class="row mb-5" id="vitamin">
+        <div class="heading col-lg-3 " style="text-align: center;">
+          <div class="card" style="width: 18rem; border: white;">
+            <div class="card-body">
+              <h5 class="card-title m-3">Vitamin-C-Range</h5>
+              <p class="card-text text">Explore 100% toxin-free and safe Vitamin C Range for Glowing and Radiant Skin,
+                formulated with the goodness of natural ingredients and no harmful chemicals</p>
+              <Button class="btn-primary card-link">VIEW ALL</Button:s>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+
+          <div id="carouselExampleControls2" class=" row carousel slide" data-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!-- cards -->
+
+                <div class=" card card-prod" style="width: 18rem; ">
+                  <img class="card-img-top" src="vitamin c range/vitamin_c_foaming_face_wash_1.avif"
+                    alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text">Vitamin C Foaming Face Wash with Vitamin C - 150ml</p>
+                    <p class="card-text text" style="color: #7ec729;;">Deeply Cleanses | Brightens Skin | Makes Skin
+                      Glow</p>
+                    <p class="m-1"><strong><i class="fa-solid fa-indian-rupee-sign"></i>349</strong></p>
+                    <a href="#" class="btn btn-primary card-link">Add-to-Cart</a>
+                  </div>
+                </div>
+                <div class=" card card-prod" style="width: 18rem; ">
+                  <img class="card-img-top" src="vitamin c range/vit-c-glow-cream1.avif" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text">Vitamin C Daily Glow Face Cream With Vitamin C for Skin Illumination- 80 g
+                    </p>
+                    <p class="card-text text" style="color: #7ec729;;">Brightens Skin | Moisturizes Skin</p>
+                    <p class="m-1"><strong><i class="fa-solid fa-indian-rupee-sign"></i>359</strong></p>
+                    <a href="#" class="btn btn-primary card-link">Add-to-Cart</a>
+                  </div>
+                </div>
+                <div class=" card card-prod" style="width: 18rem; ">
+                  <img class="card-img-top" src="vitamin c range/vitamin_c_foaming_face_wash_1.avif"
+                    alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text">Vitamin C Face Wash with Vitamin C and Turmeric for Skin Illumination -
+                      250ml
+                    </p>
+                    <p class="card-text text" style="color: #7ec729;;"><i class="fa-solid fa-badge-check"></i> Brightens
+                      Skin | Promotes Even
+                    <p class="m-1"><strong><i class="fa-solid fa-indian-rupee-sign"></i>1050</strong></p>
+                    <a href="#" class="btn btn-primary card-link"><i class="fa-solid fa-badge-check"></i>Add-to-Cart</a>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div> -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+      <hr>
+      <div class="row mb-5 " id="teatree">
+        <div class="heading col-lg-3 " style="text-align: center;">
+          <div class="card" style="width: 18rem; border: white;">
+            <div class="card-body">
+              <h5 class="card-title m-3">Tea Tree range</h5>
+              <p class="card-text text">Explore the goodness of nature from Mamaearth. Take a look at our toxin-free and
+                natural products for hair, skin, and babies</p>
+              <Button class="btn-primary card-link">VIEW ALL</Button:s>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+
+          <div id="carouselExampleControls2" class=" row carousel slide" data-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!-- cards -->
+
+                <div class=" card card-prod" style="width: 18rem; ">
+                  <img class="card-img-top" src="lightning sale/tea-tree-face-wash-1.avif" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text">Tea Tree Facewash for acne and pimples, 100ml</p>
+                    <p class="card-text text" style="color: #7ec729;;">Controls Acne & Pimples | Removes Excess Oil</p>
+                    <p class="m-1"><strong><i class="fa-solid fa-indian-rupee-sign"></i>449</strong></p>
+                    <a href="#" class="btn btn-primary card-link">Add-to-Cart</a>
+                  </div>
+                </div>
+                <div class=" card card-prod" style="width: 18rem; ">
+                  <img class="card-img-top" src="lightning sale/tea_tree_shampoo_1.avif" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text">Tea Tree Shampoo for Dandruff Free Hair - 250ml</p>
+                    <p class="card-text text" style="color: #7ec729;;">Reduces Dandruff & Controls Oil | Soothes Scalp
+                    </p>
+                    <p class="m-1"><strong><i class="fa-solid fa-indian-rupee-sign"></i>359</strong></p>
+                    <a href="#" class="btn btn-primary card-link">Add-to-Cart</a>
+                  </div>
+                </div>
+                <div class=" card card-prod" style="width: 18rem; ">
+                  <img class="card-img-top"
+                    src="lightning sale/tea-tree-foaming-face-wash-with-ingredients_85zdnmuke0xpfych.avif"
+                    alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text text">Tea Tree Foaming Face Wash with Tea Tree
+                    </p>
+                    <p class="card-text text" style="color: #7ec729;;"><i class="fa-solid fa-badge-check"></i> Gently
+                      Cleanses |Removes Excess Oil |Antibacterial
+                    <p class="m-1"><strong><i class="fa-solid fa-indian-rupee-sign"></i>1050</strong></p>
+                    <a href="#" class="btn btn-primary card-link"><i class="fa-solid fa-badge-check"></i>Add-to-Cart</a>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div> -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials Sections -->
+
+    <h1 class="testmon-header">What Our Customer Say</h1>
+    <section id="testimonials">
+
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-padding">
+            <h4 class=" pricing-heading">I was facing Excessive hair fall . So thus I tried "Eco-friendly" Onion Hair
+              Sampoo and Onion hair mask and Onion hair serum and Onion Hair smooth Booster. These are products helped
+              me to minimize my this Problem. I also used face wash to removel sun tan effect away</h4>
+            <img class="testomonial-img"
+              src="customers/Reasons-why-Indian-men-do-not-communicate-their-feelings-1.jpg" alt="dog-profile">
+            <em><strong>Anubhav jain </strong></em>
+            <em> (Gwalior,Mp)</em>
+          </div>
+          <div class="carousel-item container-padding">
+            <h2 class=" pricing-heading">Being made of natural and toxin-free ingredients.Eco-friendly's skin and hair
+              products are very effective. they make my skin and hair healthy i am using ubtan face wash which is a
+              great sun ton removel. if you are looking for issues related for your haircar and skin care you should try
+              the eco frindly products.
+            </h2>
+            <img class="testomonial-img" src="customers/photo-1607346256330-dee7af15f7c5.jpg" alt="lady-profile">
+            <em><strong>
+                -Akshat khushwaha
+              </strong></em>
+            <em> (Kolkata, west bengal)</em>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <footer id="footer">
+
+      <h1 class="testmon-header"> Our Social Handles</h1>
+
+      <div class="foot-item row">
+
+        <div class="col-lg-6 first-col">
+          <i class="foot-icon fa-brands fa-facebook "></i>
+          <i class="foot-icon fa-brands fa-linkedin"></i>
+          <i class="foot-icon fa-brands fa-twitter"></i>
+          <i class="foot-icon fa-brands fa-instagram"></i>
+          <p style="color: #7ec729;">© Copyright ECO-Friendly</p>
+
+        </div>
+   
+        <div class="straight col-lg-1">
+            
+        </div>
+        
+        <div class="col-lg-5">
+          <div class="container foot-form">
+            <form action="action_page.php">
+              <form action="" onsubmit="return myFunction()">
+             <div class="foot-form">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>  
+
+              <div class="foot-form">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+
+              <div class="foot-form">
+              <label for="lname">Email id -</label>
+              <input type="email" id="email" name="lastname" placeholder="Enter your Email id">
+            </div>
+
+              <div class="foot-form">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="USA">USA</option>
+                <option value="India">India</option>
+                <option value="South-Africa">South-Africa</option>
+              </select>
+            </div> 
+  
+
+              <div class="foot-form"></div>
+              <label for="subject">Message box</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+              
+              <button >submit</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+
+     
+  </div>
+
+
+
+    </footer>
+
+ 
+
+
+
+
+
+    <!-- js links for the bootstrap -->
+</body>
+
+</html>
